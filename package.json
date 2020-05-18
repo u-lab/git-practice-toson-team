@@ -1,0 +1,18 @@
+{
+  "name": "ulab_git_practice",
+  "version": "1.0.0",
+  "description": "My scrumtrulescent Nuxt.js project",
+  "author": "toson77",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {}
+}
