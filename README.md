@@ -1,6 +1,6 @@
 # ulab_git_practice
 
-> My scrumtrulescent Nuxt.js project
+UlabGit講習2020 3回目の教材
 
 ## Build Setup
 
