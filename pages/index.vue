@@ -3,26 +3,36 @@
     <div>
       <logo />
       <h1 class="title">
-        ulab_git_practice
+        Ulab git practice
       </h1>
       <h2 class="subtitle">
-        My scrumtrulescent Nuxt.js project
+        by Nuxt.js
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
+        <nuxt-link
+          to="/about"
           class="button--grey"
         >
-          GitHub
-        </a>
+          About
+        </nuxt-link>
+        <nuxt-link
+          to="/design"
+          class="button--green"
+        >
+          Design
+        </nuxt-link>
+        <nuxt-link
+          to="/programming"
+          class="button--lgreen"
+        >
+        Programming
+        </nuxt-link>
+        <nuxt-link
+          to="/cad"
+          class="button--brown"
+        >
+        CAD
+        </nuxt-link>
       </div>
     </div>
   </div>
@@ -46,6 +56,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  animation: 1.5s appear;
 }
 
 .title {
@@ -53,7 +64,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }

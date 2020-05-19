@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NavBar />
     <nuxt />
   </div>
 </template>
@@ -45,6 +44,34 @@ html {
 .button--green:hover {
   color: #fff;
   background-color: #3b8070;
+}
+
+.button--lgreen {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #abc49c;
+  color: #abc49c;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.button--lgreen:hover {
+  color: #fff;
+  background-color: #abc49c;
+}
+
+.button--brown {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #875c62;
+  color: #875c62;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.button--brown:hover {
+  color: #fff;
+  background-color: #875c62;
 }
 
 .button--grey {
