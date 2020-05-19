@@ -56,7 +56,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  animation: 1.5s appear;
+  animation: 0.3s appear;
 }
 
 .title {
