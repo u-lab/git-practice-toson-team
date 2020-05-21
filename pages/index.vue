@@ -3,12 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        <!-- この下を Ulab Introductionに変更 -->
-        Ulab git practice
+        Ulab Introduction
       </h1>
       <h2 class="subtitle">
-        <!-- この下を Ulab git practice by Nuxt.jsに変更 -->
-        by Nuxt.js
+        Ulab git practice by Nuxt.js
       </h2>
       <div class="links">
         <nuxt-link
@@ -62,8 +60,8 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  /* font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; */
   display: block;
   font-weight: 300;
   font-size: 80px;
