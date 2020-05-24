@@ -1,6 +1,7 @@
 # ulab_git_practice
 
-UlabGit講習2020 3回目の教材
+UlabGit 講習 2020 3 回目の教材
+～ Nuxt.js でチーム開発～
 
 ## Build Setup
 
