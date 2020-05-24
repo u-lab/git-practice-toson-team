@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <v-app  style="background-color:rgba(0,0,0,0);">
     <nuxt />
-  </div>
+  </v-app>
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
