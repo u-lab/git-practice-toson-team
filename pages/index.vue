@@ -3,12 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        <!-- この下を Ulab Introductionに変更 -->
-        Ulab git practice
+        Ulab Introduction
       </h1>
       <h2 class="subtitle">
-        <!-- この下を Ulab git practice by Nuxt.jsに変更 -->
-        by Nuxt.js
+        Ulab git practice by Nuxt.js
       </h2>
       <div class="links">
         <nuxt-link
